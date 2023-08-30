@@ -38,7 +38,7 @@ function FilteredEventsPage(props) {
     );
   }
 
-  const date = new Date(props.date.year, props.date.month - 1);
+  const date = new Date(props.data.year, props.data.month - 1);
 
   return (
     <Fragment>
